@@ -6,10 +6,11 @@
 //  Copyright © 2018 Administrator. All rights reserved.
 //
 
-import XCTest
-@testable import HelloWorld
+import UIKit
 
-class HelloWorldTests: XCTestCase {
+class viewController: UIViewController {
+    
+    @IBOutlet weak var mybotton: UIButton!
     
     override func setUp() {
         super.setUp()

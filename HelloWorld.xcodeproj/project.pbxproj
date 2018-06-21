@@ -78,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				C38506CD20D82FE000D97F37 /* HelloWorld */,
-				C38506E220D82FE000D97F37 /* HelloWorldTests */,
 				C38506ED20D82FE000D97F37 /* HelloWorldUITests */,
 				C38506CC20D82FE000D97F37 /* Products */,
 			);
@@ -99,9 +98,10 @@
 			children = (
 				C38506CE20D82FE000D97F37 /* AppDelegate.swift */,
 				C38506D020D82FE000D97F37 /* ViewController.swift */,
-				C38506D220D82FE000D97F37 /* Main.storyboard */,
 				C38506D520D82FE000D97F37 /* Assets.xcassets */,
+				C38506D220D82FE000D97F37 /* Main.storyboard */,
 				C38506D720D82FE000D97F37 /* LaunchScreen.storyboard */,
+				C38506E220D82FE000D97F37 /* HelloWorldTests */,
 				C38506DA20D82FE000D97F37 /* Info.plist */,
 			);
 			path = HelloWorld;
@@ -428,6 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leemi.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leemi.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
